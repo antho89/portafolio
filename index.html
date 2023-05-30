@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Encriptador Challenge</title>
+</head>
+<body>
+    <header>
+        <img src="imagen/Frame 6.png" alt="Logo aplicacion encriptar">
+    </header>
+    <main>
+        <section class="seccion-1">
+            <textarea class="textarea1" id="textoEncriptado" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+            <div class="container-botones">
+                <button class="btn-encriptar" onclick  = "btnEncriptar()" >Encriptar</button>
+                <button class="btn-desencriptar" onclick = "btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion-2">
+            <textarea class="textarea2" id="textoDesencriptado" cols="20" rows="10"></textarea>
+            <div class="container-subtitulo">
+                <h3>No se encontro ningun mensaje</h3>
+            </div>
+            <div class="container-parrafo">
+                <p>Escribe el texto que desea encriptar o desencriptar</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Elaborado por Anthony Ventura
+    </footer>
+    
+</body>
+
+<script src="script.js"></script>
+</html>
